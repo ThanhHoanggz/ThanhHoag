@@ -42,9 +42,7 @@ public class Employee {
 
     static final String DB_URL = "jdbc:mysql://localhost/TEST";
     static final String USER = "root";
-    static final String PASS = "";
-
-    public void insertData() {
+    ppo    public void insertData() {
         Connection conn = null;
         PreparedStatement stmt = null;
         try {
