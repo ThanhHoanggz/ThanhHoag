@@ -24,7 +24,7 @@ public abstract class Employee implements IEmployee {
         this.paymentPerHour = paymentPerHour;
     }
 }
-public class Entry {
+public class TestEmployee {
     public static void main(String[] args) {
         IEmployee employee1 = new PartTimeEmployee("Thanh", 20000, 3);
         System.out.println("Tên " + employee1.getName());
