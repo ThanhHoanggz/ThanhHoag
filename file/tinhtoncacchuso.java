@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class tinhtongcacchuso {
     public static void main(String[] args) {
-        System.out.println("Vui lòng nhập số ");
+        System.out.println("Vui lòng nhập so");
         Scanner z = new Scanner(System.in);
         int n = z.nextInt();
         int sum = 0;
